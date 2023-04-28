@@ -1,0 +1,8 @@
+<div class="card-container">
+  <img [hidden]="!data.image" [src]="data.image" class="card-image" />
+  <h3 class="card-title">{{ data.title }}</h3>
+  <p class="card-note">{{ data.note }}</p>
+  <h4 [hidden]="data.price === undefined" class="card-price">
+    Price: {{ data.price }}
+  </h4>
+</div>

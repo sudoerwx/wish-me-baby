@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  & > * {
+    margin: 0;
+  }
+
+  .card-image {
+  }
+
+  .card-title {
+  }
+
+  .card-note {
+  }
+
+  .card-price {
+  }
+}
